@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="cat.css">
+    
+    <script src="cat.js"></script>
+  </head>
+  <body>
+    <div class="dark-background">
+        <div>
+            <img id="bulbImage" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png" alt="BUlb" class="bulb-image">    
+        </div>
+        <div>
+            <img id="catImage" class="cat-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png" alt="cat-image">
+        </div>
+        <div class="switch-board">
+             <div>
+                <h1 id="switchStatus" class="switch-status">Switched On</h1>
+             </div>
+             <div style="align-self: center;">
+                <button id="offSwitch" onclick="switchOff()" class="off-switch">
+                    OFF
+                </button>
+                <button id="onSwitch" onclick="switchOn()"  class="on-switch">ON</button>
+             </div>
+        </div>
+    </div>
+  </body>
+</html>
